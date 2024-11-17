@@ -35,6 +35,7 @@ The address width for 4KB memory is 12 bits (2^12 = 4096).
 
 
 VERILOG CODE :
+```
 module mem_rom(input clk,rst,input [2:0]address,
 output reg [3:0] dataout);
 reg [3:0] mem_rom[7:0];
@@ -57,7 +58,7 @@ else
 dataout=mem_rom[address];
 end
 endmodule
-
+```
 
 <img width="758" alt="image" src="https://github.com/user-attachments/assets/99f8f051-680f-4c5b-96c4-85ae687a18d8">
 
